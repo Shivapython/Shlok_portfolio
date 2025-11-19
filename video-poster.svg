@@ -1,0 +1,24 @@
+<!-- This is a placeholder for a video poster image -->
+<svg width="1920" height="1080" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2d5016;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#4a7c23;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <rect width="1920" height="1080" fill="url(#bg)"/>
+  
+  <!-- Organic texture overlay -->
+  <circle cx="400" cy="300" r="200" fill="#578b2a" opacity="0.3"/>
+  <circle cx="1200" cy="600" r="150" fill="#6b9b3a" opacity="0.4"/>
+  <circle cx="800" cy="800" r="100" fill="#4a7c23" opacity="0.2"/>
+  
+  <!-- Film grain effect -->
+  <rect width="1920" height="1080" fill="url(data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Cg fill-opacity='0.03'%3E%3Cpolygon fill='%23000' points='50 0 60 40 100 50 60 60 50 100 40 60 0 50 40 40'/%3E%3C/g%3E%3C/svg%3E)" opacity="0.5"/>
+  
+  <!-- Center text (optional) -->
+  <text x="960" y="540" font-family="Arial, sans-serif" font-size="48" fill="white" text-anchor="middle" opacity="0.7">
+    Video Loading...
+  </text>
+</svg>
